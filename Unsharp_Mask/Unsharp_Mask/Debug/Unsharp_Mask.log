@@ -1,0 +1,32 @@
+﻿Build started 04/05/2016 12:50:52.
+     1>Project "E:\E-HD\UNI\Unsharp_Mask\Unsharp_Mask\Unsharp_Mask.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c E:\E-HD\UNI\Unsharp_Mask\Unsharp_Mask\unsharp_mask.cu 
+       CudaBuild:
+         Compiling CUDA source file unsharp_mask.cu...
+         cmd.exe /C "c:\Temp\tmp8355fabc89c7468d92ba02380b3f67fc.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\unsharp_mask.cu.obj "E:\E-HD\UNI\Unsharp_Mask\Unsharp_Mask\unsharp_mask.cu"
+         
+         E:\E-HD\UNI\Unsharp_Mask\Unsharp_Mask>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\unsharp_mask.cu.obj "E:\E-HD\UNI\Unsharp_Mask\Unsharp_Mask\unsharp_mask.cu" 
+         unsharp_mask.cu
+     1>e:\e-hd\uni\unsharp_mask\unsharp_mask\ppm.hpp(65): warning C4244: 'argument' : conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+     1>e:\e-hd\uni\unsharp_mask\unsharp_mask\unsharp_mask.cuh(22): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\e-hd\uni\unsharp_mask\unsharp_mask\unsharp_mask.cuh(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\e-hd\uni\unsharp_mask\unsharp_mask\unsharp_mask.cuh(28): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\E-HD\UNI\Unsharp_Mask\Debug\Unsharp_Mask.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\E-HD\UNI\Unsharp_Mask\Debug\Unsharp_Mask.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\E-HD\UNI\Unsharp_Mask\Debug\Unsharp_Mask.lib" /MACHINE:X86 Debug\unsharp_mask.cu.obj
+         Debug\unsharp_mask.obj
+         Unsharp_Mask.vcxproj -> E:\E-HD\UNI\Unsharp_Mask\Debug\Unsharp_Mask.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "E:\E-HD\UNI\Unsharp_Mask\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "E:\E-HD\UNI\Unsharp_Mask\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "E:\E-HD\UNI\Unsharp_Mask\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 file(s) copied.
+     1>Done Building Project "E:\E-HD\UNI\Unsharp_Mask\Unsharp_Mask\Unsharp_Mask.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.47

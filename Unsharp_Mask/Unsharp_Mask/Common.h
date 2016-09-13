@@ -1,0 +1,15 @@
+#include <cuda_runtime.h>
+#include <cuda_occupancy.h>
+#include <malloc.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <chrono>
+#include <cmath>
+#include <cstdlib>
+#include <iomanip>
+#include <iostream>
+#include <fstream>
+#include <curand.h>
+#include <curand_kernel.h>
+#include <algorithm>
